@@ -1,0 +1,28 @@
+.icon {
+    height: 20px;
+    width: 20px;
+    display: inline-block;
+    background-color: white;
+}
+
+.nav-link {
+    color: white;
+    padding: 10px 24px;
+    border-radius: 24px;
+    display: flex;
+    font-weight: bolder;
+    gap: 10px;
+}
+
+.nav-link:hover {
+    background-color: rgba(0, 150, 250, 0.4);
+    color: white;
+}
+
+.nav-link-active {
+    background-color: rgba(0, 150, 250, 0.9);
+}
+
+.nav-link-active:hover {
+    background-color: rgba(0, 150, 250, 0.9);
+}
